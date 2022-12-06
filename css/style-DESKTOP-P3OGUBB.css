@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(15, 13, 13, 0.63);
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Seleccion{
+    background-color: rgb(192, 17, 17);
+    border-radius: 5px;
+}
+
+.Navegador{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+h1{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.418);
+
+
+    font-family: 'Anton', sans-serif;
+    font-size: 700%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 80%;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0.527);
+    border-width: 5px;
+    border-style:dashed;
+    border-color:black;
+    border-radius: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida p{
+    background-color: rgba(240, 248, 255, 0.527);
+    font-size: 200%;
+}
+
+.imagenes{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 350px;
+
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagenes div{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    border-width: 5px;
+    border-style:dashed;
+    border-color: black;
+    border-radius: 50px;
+}
+
+.imagenes h3{
+    width: fit-content;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+#imagen1{
+    width: 200%;
+    height: 85%;
+    object-fit: cover;
+}
+
+#imagen2{
+    width: 200%;
+    height: 85%;
+    object-fit: cover;
+}
+
+#imagen3{
+    width: 200%;
+    height: 85%;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #fae89a;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* @media(min-width: 480px){
+    
+}
+
+@media(min-width: 768px){
+    
+}
+
+@media(min-width: 1024px){
+    body{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+} */
