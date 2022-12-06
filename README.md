@@ -1,1 +1,1 @@
-# Tecnolog-a-para-todos
+# Tecnologia-para-todos
